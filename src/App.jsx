@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe/AboutMe";
+import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Title from "./components/Title/Title";
@@ -20,6 +21,14 @@ function App() {
         <hr className="d-print-none" />
         <div class="work-experience-section px-3 px-lg-4">
           <Projects />
+        </div>
+        <hr class="d-print-none" />
+        <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
+          <Contact
+            email="javid.izadi1384@gmail.com"
+            phone="+989031556890"
+            sendMailLink="https://formspree.io/f/xzbyqvgn"
+          />
         </div>
       </div>
     </div>
