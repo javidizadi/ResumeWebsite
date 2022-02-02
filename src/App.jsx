@@ -5,6 +5,8 @@ import Skills from "./components/Skills/Skills";
 import Title from "./components/Title/Title";
 
 function App() {
+  let email = "javid.izadi1384@gmail.com";
+  let phone = "+989031556890";
   return (
     <div className="container">
       <div className="cover shadow-lg bg-white">
@@ -12,7 +14,11 @@ function App() {
           <Title />
         </div>
         <div className="about-section pt-4 px-3 px-lg-4 mt-1">
-          <AboutMe />
+          <AboutMe
+            aboutMe="Living in Isfahan.I start Learning Flutter and also still Learning about .Net and Linux. Interested in teamwork."
+            email={email}
+            phone={phone}
+          />
         </div>
         <hr className="d-print-none" />
         <div className="skills-section px-3 px-lg-4">
@@ -25,8 +31,8 @@ function App() {
         <hr class="d-print-none" />
         <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
           <Contact
-            email="javid.izadi1384@gmail.com"
-            phone="+989031556890"
+            email={email}
+            phone={phone}
             sendMailLink="https://formspree.io/f/xzbyqvgn"
           />
         </div>
