@@ -25,11 +25,11 @@ function App() {
           <Skills />
         </div>
         <hr className="d-print-none" />
-        <div class="work-experience-section px-3 px-lg-4">
+        <div className="work-experience-section px-3 px-lg-4">
           <Projects />
         </div>
-        <hr class="d-print-none" />
-        <div class="contant-section px-3 px-lg-4 pb-4" id="contact">
+        <hr className="d-print-none" />
+        <div className="contant-section px-3 px-lg-4 pb-4" id="contact">
           <Contact
             email={email}
             phone={phone}

@@ -3,8 +3,8 @@ import Project from "./Project";
 const Projects = () => {
   return (
     <div>
-      <h2 class="h3 mb-4">Projects</h2>
-      <div class="timeline">
+      <h2 className="h3 mb-4">Projects</h2>
+      <div className="timeline">
         <Project
           projectName="Smart Home"
           owner="for Kharazmi Festival"

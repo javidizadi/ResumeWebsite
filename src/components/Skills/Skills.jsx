@@ -3,9 +3,9 @@ import Skill from "./Skill";
 const Skills = () => {
   return (
     <div>
-      <h2 class="h3 mb-3">Professional Skills</h2>
-      <div class="row">
-        <div class="col-md-6">
+      <h2 className="h3 mb-3">Professional Skills</h2>
+      <div className="row">
+        <div className="col-md-6">
           <div className="mb-2">
             <Skill skillName="C#" percent="90%" isGreen={false} />
           </div>
@@ -26,7 +26,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div class="col-md-6">
+        <div className="col-md-6">
           <div className="mb-2">
             <Skill skillName="HTML & CSS" percent="70%" isGreen={true} />
           </div>
