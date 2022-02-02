@@ -5,13 +5,14 @@ import Skills from "./components/Skills/Skills";
 import Title from "./components/Title/Title";
 
 function App() {
+  let name = "Javid izadi";
   let email = "javid.izadi1384@gmail.com";
   let phone = "+989031556890";
   return (
     <div className="container">
       <div className="cover shadow-lg bg-white">
         <div className="cover-bg p-3 p-lg-4 text-white">
-          <Title />
+          <Title name={name} position="Full Stack Developer"/>
         </div>
         <div className="about-section pt-4 px-3 px-lg-4 mt-1">
           <AboutMe

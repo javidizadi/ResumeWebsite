@@ -1,4 +1,4 @@
-const Title = () => {
+const Title = ({ name, position }) => {
   return (
     <div>
       <div className="row">
@@ -8,14 +8,14 @@ const Title = () => {
             data-aos="fade-left"
             data-aos-delay="0"
           >
-            Javid izadi
+            {name}
           </h2>
           <p
             data-aos="fade-left"
             data-aos-delay="100"
             className="aos-init aos-animate"
           >
-            .Net Developer
+            {position}
           </p>
           <div
             className="d-print-none aos-init aos-animate"
