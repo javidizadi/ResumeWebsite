@@ -1,4 +1,5 @@
 import AboutMe from "./components/AboutMe/AboutMe";
+import Skills from "./components/Skills/Skills";
 import Title from "./components/Title/Title";
 
 function App() {
@@ -10,6 +11,10 @@ function App() {
         </div>
         <div className="about-section pt-4 px-3 px-lg-4 mt-1">
           <AboutMe />
+        </div>
+        <hr className="d-print-none" />
+        <div className="skills-section px-3 px-lg-4">
+          <Skills />
         </div>
       </div>
     </div>
