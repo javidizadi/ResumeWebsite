@@ -4,7 +4,17 @@ import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
 import Title from "./components/Title/Title";
 
+import AOS from "aos";
+import { useEffect } from "react";
+
 function App() {
+  useEffect(() => {
+    AOS.init({
+      anchorPlacement: "top-left",
+      duration: 1000,
+    });
+  }, []);
+
   let name = "Javid izadi";
   let email = "javid.izadi1384@gmail.com";
   let phone = "+989031556890";
